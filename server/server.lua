@@ -1,3 +1,5 @@
+ESX = exports["es_extended"]:getSharedObject()
+
 RegisterCommand('anuncio', function(source, args, rawCommand)
     local _source = source
     local xPlayer = ESX.GetPlayerFromId(_source)
