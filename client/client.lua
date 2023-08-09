@@ -1,3 +1,4 @@
+ESX = exports["es_extended"]:getSharedObject()
 ShowNotification = function(msg)
 	SetNotificationTextEntry('STRING')
 	AddTextComponentSubstringWebsite(msg)
